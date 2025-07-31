@@ -1,0 +1,599 @@
+
+{
+  "header": {
+    "reportVersion": 5,
+    "event": "Exception",
+    "trigger": "Exception",
+    "filename": "report.json",
+    "dumpEventTime": "2025-07-31T13:47:35Z",
+    "dumpEventTimeStamp": "1753944455805",
+    "processId": 19540,
+    "threadId": 0,
+    "cwd": "H:\\Documents\\materi-pembelajaran\\nodejs\\udemy\\pzn\\belajar-nodejs-dasar2",
+    "commandLine": [
+      "D:\\Program Files\\nodejs\\node.exe",
+      "H:\\Documents\\materi-pembelajaran\\nodejs\\udemy\\pzn\\belajar-nodejs-dasar2\\report.mjs"
+    ],
+    "nodejsVersion": "v22.17.1",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "acorn": "8.14.1",
+      "ada": "2.9.2",
+      "amaro": "0.4.1",
+      "ares": "1.34.5",
+      "brotli": "1.1.0",
+      "cjs_module_lexer": "2.1.0",
+      "cldr": "47.0",
+      "icu": "77.1",
+      "llhttp": "9.3.0",
+      "modules": "127",
+      "napi": "10",
+      "nbytes": "0.1.1",
+      "ncrypto": "0.0.1",
+      "nghttp2": "1.64.0",
+      "node": "22.17.1",
+      "openssl": "3.0.16",
+      "simdjson": "3.12.3",
+      "simdutf": "6.4.2",
+      "sqlite": "3.50.0",
+      "tz": "2025b",
+      "undici": "6.21.2",
+      "unicode": "16.0",
+      "uv": "1.51.0",
+      "uvwasi": "0.0.21",
+      "v8": "12.4.254.21-node.27",
+      "zlib": "1.3.0.1-motley-780819f",
+      "zstd": "1.5.7"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Jod",
+      "headersUrl": "https://nodejs.org/download/release/v22.17.1/node-v22.17.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v22.17.1/node-v22.17.1.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v22.17.1/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.19045",
+    "osVersion": "Windows 10 Pro",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz",
+        "speed": 3392,
+        "user": 6476078,
+        "nice": 0,
+        "sys": 4832234,
+        "idle": 28556015,
+        "irq": 1238390
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz",
+        "speed": 3392,
+        "user": 5010296,
+        "nice": 0,
+        "sys": 2355281,
+        "idle": 32498750,
+        "irq": 206468
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz",
+        "speed": 3392,
+        "user": 11914640,
+        "nice": 0,
+        "sys": 2366812,
+        "idle": 25582703,
+        "irq": 55859
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz",
+        "speed": 3392,
+        "user": 5593062,
+        "nice": 0,
+        "sys": 1965828,
+        "idle": 32305265,
+        "irq": 34859
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz",
+        "speed": 3392,
+        "user": 6879968,
+        "nice": 0,
+        "sys": 2562875,
+        "idle": 30421312,
+        "irq": 54296
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz",
+        "speed": 3392,
+        "user": 5132093,
+        "nice": 0,
+        "sys": 1651609,
+        "idle": 33080453,
+        "irq": 36750
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz",
+        "speed": 3392,
+        "user": 6164046,
+        "nice": 0,
+        "sys": 2327828,
+        "idle": 31372281,
+        "irq": 49500
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz",
+        "speed": 3392,
+        "user": 7175640,
+        "nice": 0,
+        "sys": 1931031,
+        "idle": 30757484,
+        "irq": 37062
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Ethernet 2",
+        "internal": false,
+        "mac": "0a:00:27:00:00:06",
+        "address": "fe80::220c:2337:a592:ce2",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 6
+      },
+      {
+        "name": "Ethernet 2",
+        "internal": false,
+        "mac": "0a:00:27:00:00:06",
+        "address": "192.168.56.1",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Ethernet",
+        "internal": false,
+        "mac": "0a:e0:af:b4:17:8a",
+        "address": "fe80::dea3:5aa:1691:f728",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 20
+      },
+      {
+        "name": "Ethernet",
+        "internal": false,
+        "mac": "0a:e0:af:b4:17:8a",
+        "address": "192.168.1.4",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "VMware Network Adapter VMnet1",
+        "internal": false,
+        "mac": "00:50:56:c0:00:01",
+        "address": "fe80::90c:9a0:cac2:c69f",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 8
+      },
+      {
+        "name": "VMware Network Adapter VMnet1",
+        "internal": false,
+        "mac": "00:50:56:c0:00:01",
+        "address": "192.168.66.1",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "VMware Network Adapter VMnet8",
+        "internal": false,
+        "mac": "00:50:56:c0:00:08",
+        "address": "fe80::5441:9969:887d:3ef4",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 9
+      },
+      {
+        "name": "VMware Network Adapter VMnet8",
+        "internal": false,
+        "mac": "00:50:56:c0:00:08",
+        "address": "192.168.88.1",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "DESKTOP-S8HVJV4"
+  },
+  "javascriptStack": {
+    "message": "Error: Ups",
+    "stack": [
+      "at sampleError (file:///H:/Documents/materi-pembelajaran/nodejs/udemy/pzn/belajar-nodejs-dasar2/report.mjs:9:11)",
+      "at file:///H:/Documents/materi-pembelajaran/nodejs/udemy/pzn/belajar-nodejs-dasar2/report.mjs:12:1",
+      "at ModuleJob.run (node:internal/modules/esm/module_job:329:25)",
+      "at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)"
+    ],
+    "errorProperties": {
+    }
+  },
+  "javascriptHeap": {
+    "totalMemory": 6094848,
+    "executableMemory": 262144,
+    "totalCommittedMemory": 6094848,
+    "availableMemory": 4341032320,
+    "totalGlobalHandlesMemory": 8192,
+    "usedGlobalHandlesMemory": 2912,
+    "usedMemory": 5167944,
+    "memoryLimit": 4345298944,
+    "mallocedMemory": 163912,
+    "externalMemory": 1841114,
+    "peakMallocedMemory": 139536,
+    "nativeContextCount": 2,
+    "detachedContextCount": 0,
+    "doesZapGarbage": 0,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1030912,
+        "used": 794152,
+        "available": 236760
+      },
+      "old_space": {
+        "memorySize": 3440640,
+        "committedMemory": 3440640,
+        "capacity": 3375680,
+        "used": 3132200,
+        "available": 243480
+      },
+      "code_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 245728,
+        "used": 49408,
+        "available": 196320
+      },
+      "shared_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "trusted_space": {
+        "memorySize": 1073152,
+        "committedMemory": 1073152,
+        "capacity": 1050776,
+        "used": 930024,
+        "available": 120752
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1030912,
+        "used": 0,
+        "available": 1030912
+      },
+      "large_object_space": {
+        "memorySize": 270336,
+        "committedMemory": 270336,
+        "capacity": 262160,
+        "used": 262160,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "shared_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "trusted_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      }
+    }
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff7a9a80aeb",
+      "symbol": "node::GetNodeReport+13547"
+    },
+    {
+      "pc": "0x00007ff7a9a85066",
+      "symbol": "node::TriggerNodeReport+3286"
+    },
+    {
+      "pc": "0x00007ff7a9a840b9",
+      "symbol": "node::TriggerNodeReport+3449"
+    },
+    {
+      "pc": "0x00007ff7a9a83381",
+      "symbol": "node::TriggerNodeReport+65"
+    },
+    {
+      "pc": "0x00007ff7a9b253ea",
+      "symbol": "node::OnFatalError+3658"
+    },
+    {
+      "pc": "0x00007ff7a9b268f7",
+      "symbol": "node::OnFatalError+9047"
+    },
+    {
+      "pc": "0x00007ff7a9b265ac",
+      "symbol": "node::OnFatalError+8204"
+    },
+    {
+      "pc": "0x00007ff74a68fa64",
+      "symbol": ""
+    }
+  ],
+  "resourceUsage": {
+    "free_memory": 7415083008,
+    "total_memory": 17131536384,
+    "rss": 104656896,
+    "available_memory": 7415083008,
+    "userCpuSeconds": 0.093,
+    "kernelCpuSeconds": 0.14,
+    "cpuConsumptionPercent": 23.3,
+    "userCpuConsumptionPercent": 9.3,
+    "kernelCpuConsumptionPercent": 14,
+    "maxRss": 125394944,
+    "pageFaults": {
+      "IORequired": 31255,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 2,
+      "writes": 4
+    }
+  },
+  "uvthreadResourceUsage": {
+    "userCpuSeconds": 0.093,
+    "kernelCpuSeconds": 0.14,
+    "cpuConsumptionPercent": 23.3,
+    "userCpuConsumptionPercent": 9.3,
+    "kernelCpuConsumptionPercent": 14,
+    "fsActivity": {
+      "reads": 0,
+      "writes": 0
+    }
+  },
+  "libuv": [
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x00000166b14025c0"
+    },
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x00007ff7ae7eeaf0"
+    },
+    {
+      "type": "timer",
+      "is_active": false,
+      "is_referenced": false,
+      "address": "0x00000166b1499b18",
+      "repeat": 0,
+      "firesInMsFromNow": -110491422,
+      "expired": true
+    },
+    {
+      "type": "check",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x00000166b1499bb8"
+    },
+    {
+      "type": "idle",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x00000166b1499c30"
+    },
+    {
+      "type": "prepare",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x00000166b1499ca8"
+    },
+    {
+      "type": "check",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x00000166b1499d20"
+    },
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x00000166b1499d98"
+    },
+    {
+      "type": "tty",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x00000166af977ce0",
+      "width": 120,
+      "height": 25,
+      "writeQueueSize": 0,
+      "readable": false,
+      "writable": true
+    },
+    {
+      "type": "signal",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x00000166b14ae560",
+      "signum": 28,
+      "signal": "SIGWINCH"
+    },
+    {
+      "type": "tty",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x00000166af978d60",
+      "writeQueueSize": 0,
+      "readable": true,
+      "writable": false
+    },
+    {
+      "type": "tty",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x00000166af978730",
+      "width": 120,
+      "height": 25,
+      "writeQueueSize": 0,
+      "readable": false,
+      "writable": true
+    },
+    {
+      "type": "loop",
+      "is_active": false,
+      "address": "0x00007ff7aea7b3e0",
+      "loopIdleTimeSeconds": 8.08e-05
+    }
+  ],
+  "workers": [
+  ],
+  "environmentVariables": {
+    "USERDOMAIN_ROAMINGPROFILE": "DESKTOP-S8HVJV4",
+    "JetBrains Rider": "D:\\Program Files\\JetBrains\\JetBrains Rider 2024.2.7\\bin;",
+    "PROCESSOR_LEVEL": "6",
+    "VS140COMNTOOLS": "E:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\Tools\\",
+    "SESSIONNAME": "Console",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "SystemDrive": "C:",
+    "PT8HOME": "D:\\Program Files\\Cisco Packet Tracer 8.2.2",
+    "USERNAME": "myasi",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "OneDriveConsumer": "H:\\OneDrive",
+    "CLion": "D:\\Program Files\\JetBrains\\CLion 2024.2.3\\bin;",
+    "ProgramData": "C:\\ProgramData",
+    "GIT_LFS_PATH": "D:\\Program Files\\Git LFS",
+    "ProgramW6432": "C:\\Program Files",
+    "__PSLockDownPolicy": "0",
+    "HOMEPATH": "\\Users\\myasi",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 58 Stepping 9, GenuineIntel",
+    "ProgramFiles": "C:\\Program Files",
+    "PUBLIC": "C:\\Users\\Public",
+    "windir": "C:\\Windows",
+    "=::": "::\\",
+    "PhpStorm": "D:\\Program Files\\JetBrains\\PhpStorm 2024.2.4\\bin;",
+    "LOCALAPPDATA": "C:\\Users\\myasi\\AppData\\Local",
+    "ChocolateyLastPathUpdate": "133980531849010613",
+    "MSMPI_BIN": "C:\\Program Files\\Microsoft MPI\\Bin\\",
+    "IntelliJ IDEA": "D:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\bin;",
+    "USERDOMAIN": "DESKTOP-S8HVJV4",
+    "LOGONSERVER": "\\\\DESKTOP-S8HVJV4",
+    "JAVA_HOME": "C:\\Program Files\\Java\\jdk-17",
+    "WebStorm": "D:\\Program Files\\JetBrains\\WebStorm 2024.2.4\\bin;",
+    "DataGrip": "D:\\Program Files\\JetBrains\\DataGrip 2024.2.2\\bin;",
+    "OneDrive": "H:\\OneDrive",
+    "APPDATA": "C:\\Users\\myasi\\AppData\\Roaming",
+    "ChocolateyInstall": "C:\\ProgramData\\chocolatey",
+    "VBOX_MSI_INSTALL_PATH": "G:\\Program Files\\Oracle\\VirtualBox\\",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "Path": "E:\\Program Files\\Python313\\Scripts\\;E:\\Program Files\\Python313\\;G:\\Program Files (x86)\\VMware\\VMware Player\\bin\\;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Microsoft MPI\\Bin\\;C:\\Program Files\\Java\\jdk-17\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;D:\\MinGW\\bin;D:\\xampp\\apache\\bin;D:\\xampp\\mysql\\bin;D:\\xampp\\php;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;D:\\Program Files\\Git LFS;D:\\src\\flutter;D:\\src\\flutter\\bin;C:\\Users\\myasi\\AppData\\Local\\Pub\\Cache\\bin;D:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\Incredibuild;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;D:\\Program Files\\nodejs\\;C:\\ProgramData\\chocolatey\\bin;C:\\Users\\myasi\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Program Files\\Microsoft VS Code\\bin;D:\\Program Files\\JetBrains\\PhpStorm 2024.2.4\\bin;D:\\Program Files\\JetBrains\\GoLand 2024.2.3\\bin;D:\\Program Files\\JetBrains\\DataGrip 2024.2.2\\bin;D:\\Program Files\\JetBrains\\WebStorm 2024.2.4\\bin;D:\\Program Files\\JetBrains\\CLion 2024.2.3\\bin;D:\\Program Files\\JetBrains\\PyCharm 2024.2.4\\bin;D:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\bin;C:\\Users\\myasi\\.dotnet\\tools;D:\\Program Files\\JetBrains\\JetBrains Rider 2024.2.7\\bin;C:\\Users\\myasi\\AppData\\Local\\GitHubDesktop\\bin;D:\\src\\flutter\\bin;C:\\Users\\myasi\\AppData\\Local\\Programs\\Ollama;D:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\myasi\\.bun\\bin;C:\\Users\\myasi\\.dotnet\\tools;C:\\Users\\myasi\\AppData\\Roaming\\npm",
+    "PyCharm": "D:\\Program Files\\JetBrains\\PyCharm 2024.2.4\\bin;",
+    "OS": "Windows_NT",
+    "PROGF81DEF27053": "1",
+    "COMPUTERNAME": "DESKTOP-S8HVJV4",
+    "PROCESSOR_REVISION": "3a09",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "ComSpec": "C:\\Windows\\system32\\cmd.exe",
+    "TEMP": "C:\\Users\\myasi\\AppData\\Local\\Temp",
+    "SystemRoot": "C:\\Windows",
+    "HOMEDRIVE": "C:",
+    "USERPROFILE": "C:\\Users\\myasi",
+    "TMP": "C:\\Users\\myasi\\AppData\\Local\\Temp",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "NUMBER_OF_PROCESSORS": "8",
+    "GoLand": "D:\\Program Files\\JetBrains\\GoLand 2024.2.3\\bin;"
+  },
+  "sharedObjects": [
+    "D:\\Program Files\\nodejs\\node.exe",
+    "C:\\Windows\\SYSTEM32\\ntdll.dll",
+    "C:\\Program Files\\Avast Software\\Avast\\aswhook.dll",
+    "C:\\Windows\\System32\\KERNEL32.DLL",
+    "C:\\Windows\\System32\\KERNELBASE.dll",
+    "C:\\Windows\\System32\\WS2_32.dll",
+    "C:\\Windows\\System32\\RPCRT4.dll",
+    "C:\\Windows\\SYSTEM32\\dbghelp.dll",
+    "C:\\Windows\\System32\\CRYPT32.dll",
+    "C:\\Windows\\System32\\ucrtbase.dll",
+    "C:\\Windows\\System32\\ADVAPI32.dll",
+    "C:\\Windows\\System32\\msvcrt.dll",
+    "C:\\Windows\\System32\\sechost.dll",
+    "C:\\Windows\\System32\\bcrypt.dll",
+    "C:\\Windows\\System32\\USER32.dll",
+    "C:\\Windows\\System32\\win32u.dll",
+    "C:\\Windows\\System32\\GDI32.dll",
+    "C:\\Windows\\System32\\gdi32full.dll",
+    "C:\\Windows\\System32\\msvcp_win.dll",
+    "C:\\Windows\\System32\\ole32.dll",
+    "C:\\Windows\\System32\\combase.dll",
+    "C:\\Windows\\System32\\SHELL32.dll",
+    "C:\\Windows\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\Windows\\SYSTEM32\\WINMM.dll",
+    "C:\\Windows\\SYSTEM32\\USERENV.dll",
+    "C:\\Windows\\SYSTEM32\\dbgcore.DLL",
+    "C:\\Windows\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\Windows\\System32\\IMM32.DLL",
+    "C:\\Windows\\SYSTEM32\\powrprof.dll",
+    "C:\\Windows\\SYSTEM32\\UMPDC.dll",
+    "C:\\Windows\\system32\\uxtheme.dll",
+    "C:\\Windows\\system32\\mswsock.dll",
+    "C:\\Windows\\System32\\bcryptprimitives.dll",
+    "C:\\Windows\\SYSTEM32\\kernel.appcore.dll",
+    "C:\\Windows\\System32\\NSI.dll",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\Windows\\SYSTEM32\\DNSAPI.dll",
+    "C:\\Windows\\system32\\napinsp.dll",
+    "C:\\Windows\\system32\\pnrpnsp.dll",
+    "C:\\Windows\\system32\\wshbth.dll",
+    "C:\\Windows\\system32\\NLAapi.dll",
+    "C:\\Windows\\System32\\winrnr.dll"
+  ]
+}
