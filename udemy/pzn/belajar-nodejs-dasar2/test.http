@@ -1,0 +1,9 @@
+POST http://localhost:3000
+Content-Type: application/json
+Accept: application/json
+
+{
+  "firstName": "Gary",
+  "middleName": "Roach",
+  "lastName": "Sanderson"
+}
