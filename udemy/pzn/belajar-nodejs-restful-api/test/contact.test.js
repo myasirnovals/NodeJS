@@ -83,3 +83,68 @@ describe('GET /api/contacts/:contactId', () => {
         expect(result.status).toBe(404);
     });
 });
+
+describe('PUT /api/contacts/:contactId', () => {
+    beforeEach(async () => {
+        await createTestUser();
+        await createTestContact();
+    });
+
+    afterEach(async () => {
+        await removeAllTestContacts();
+        await removeTestUser();
+    });
+
+    it('should can update existing contact', async () => {
+        const testContact = await getTestContact();
+
+        const result = await supertest(web)
+            .put(`/api/contacts/${testContact.id}`)
+            .set('Authorization', 'test')
+            .send({
+                first_name: "Derek",
+                last_name: "Westbrook",
+                email: "derekw@pzn.com",
+                phone: "0808030434506"
+            });
+
+        expect(result.status).toBe(200);
+        expect(result.body.data.id).toBe(testContact.id);
+        expect(result.body.data.first_name).toBe('Derek');
+        expect(result.body.data.last_name).toBe('Westbrook');
+        expect(result.body.data.email).toBe('derekw@pzn.com');
+        expect(result.body.data.phone).toBe('0808030434506');
+    });
+
+    it('should reject if request is invalid', async () => {
+        const testContact = await getTestContact();
+
+        const result = await supertest(web)
+            .put(`/api/contacts/${testContact.id}`)
+            .set('Authorization', 'test')
+            .send({
+                first_name: "",
+                last_name: "",
+                email: "derek",
+                phone: ""
+            });
+
+        expect(result.status).toBe(400);
+    });
+
+    it('should reject if request is not found', async () => {
+        const testContact = await getTestContact();
+
+        const result = await supertest(web)
+            .put(`/api/contacts/${testContact.id + 1}`)
+            .set('Authorization', 'test')
+            .send({
+                first_name: "Derek",
+                last_name: "Westbrook",
+                email: "derekw@pzn.com",
+                phone: "0808030434506"
+            });
+
+        expect(result.status).toBe(404);
+    });
+});
