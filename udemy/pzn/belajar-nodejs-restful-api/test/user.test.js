@@ -2,7 +2,7 @@ import supertest from "supertest";
 import {web} from "../src/application/web.js";
 import {logger} from "../src/application/logging.js";
 import {createTestUser, getTestUser, removeTestUser} from "./test-util.js";
-import bycript from "bcrypt";
+import bcrypt from "bcrypt";
 
 describe('POST /api/users', () => {
     afterEach(async () => {
@@ -190,7 +190,7 @@ describe('PATCH /api/users/current', () => {
         expect(result.body.data.name).toBe('Yan');
 
         const user = await getTestUser();
-        expect(await bycript.compare('rahasia lagi', user.password)).toBe(true);
+        expect(await bcrypt.compare('rahasia lagi', user.password)).toBe(true);
     });
 
     it('should can update user name', async () => {
@@ -220,7 +220,7 @@ describe('PATCH /api/users/current', () => {
         expect(result.body.data.name).toBe('test');
 
         const user = await getTestUser();
-        expect(await bycript.compare('rahasia lagi', user.password)).toBe(true);
+        expect(await bcrypt.compare('rahasia lagi', user.password)).toBe(true);
     });
 
     it('should reject if request is not valid', async () => {
